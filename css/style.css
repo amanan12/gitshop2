@@ -1,4 +1,17 @@
 /*Website Template by freewebsitetemplates.com*/
+@keyframes slidein {
+  from {
+    -webkit-transform: rotate(0deg); 
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+.hi{
+	animation-duration: 3s;
+	animation-name: slidein;
+}
 @font-face {
 	font-family: 'Philosopher-Regular';
 	src: url('../fonts/Philosopher-Regular/Philosopher-Regular.eot');
